@@ -1,0 +1,30 @@
+bellerby
+	The problems were: The memory allocated for x was deleted after the line x4: was printed. After the line x5: was printed, x wasn’t allocated again and the nonexistent memory was deleted, causing an error.
+	This was one of the most instructive programs I debugged: [ ] YES    [ X ] NO
+
+
+tristanj
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+vsyms
+	The problems were: 1. Trying to access extGCDStr when NULL. 2. Deleting gcdStr when the memory wasn’t allocated and deleting extGCDStr when the memory wasn’t allocated.
+	This was one of the most instructive programs I debugged: [ ] YES    [ X ] NO
+
+
+erikster
+	The problems were: Deleting the allocated memory of int *x twice. Once in the main function and once in the destructor.
+	This was one of the most instructive programs I debugged: [ ] YES    [ X ] NO
+
+
+chaz11
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+frankie
+	The problems were: 1. Assigning arr[3], a value that has not been created or even reached because it is out of bounds, to variable var. 2. Freeing ptr twice even though it was only allocated once. 3. Freeing array even though it was never allocated. 4. Assigning a value in ptr1 after declaring it NULL. 5. Assigning value ptr[3] to var1 even though it was never initialized and the ptr memory has been freed.
+	This was one of the most instructive programs I debugged: [ X ] YES    [ ] NO
+
+

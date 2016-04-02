@@ -1,0 +1,40 @@
+zhuojun
+	The problems were: assinging a pixel value to a temporary variable and when the program frees the data it only frees the tmp variable not the acctual memory allocated there.
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+mmaurice
+	The problems were: 1) tried to free memory (arr) that wasnt on the heap
+                           2) after the deletion of arr2 the programmer tries to set values                              in arr2
+                           3) the programmer assigns arr2[4] to a variable a1 that isn't
+                              ever deleted
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+bellerby
+	The problems were: 1) trying to print out a NUll value
+                           2) deletes value before trying to print it out
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+dbeick
+	The problems were: 1) in the first for loop section, the programmer is tyring to
+                             assign values to the buffer that are outside the scope of that                             buffer.
+                           2) in the second for loop, the programmer is trying to pass in
+                              addresses instead of actual int values
+                           3) in the third for loop the programmer is trying to print out                                int values but it doesnt have any values in it because it 
+                              couldn't pass in the correct values to the buffer2
+	This was one of the most instructive programs I debugged: [X] YES    [ ] NO
+
+
+sgd
+	The problems were: This is an incomplete program, nothing works
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+magana
+	The problems were: 1) tried to free strptr twice
+                           2) tried to copy a string over to strptr after it was freed
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+

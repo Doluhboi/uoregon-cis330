@@ -1,0 +1,47 @@
+mcmillan
+	The problems were: Line 16, char* needs to be char
+			Object::Object needs data = (char*) malloc(x*sizeof(char));
+			Line 32, char* needs to be char
+			Line 40, shouldn't free b, it is in the stack
+
+	This was one of the most instructive programs I debugged: [X] YES    [ ] NO
+
+
+chaz11
+	The problems were: Likely not intended, but I needed to include stdlib.h
+			All char* in Bad_mem need to be initialized to some size
+			Line 58, need to make new Bad_mem, not just declare
+			Line 78-79, should not free at all since the data was not malloc'ed and is used again later, should use stats-> not stats. if free was valid
+
+	This was one of the most instructive programs I debugged: [ ] YES    [X] NO
+
+
+kpinto
+	The problems were: ResetCount should either allocate space for the int * var or just set x=0
+			The for loop in main is infinite due to setting i = -1 in the loop. May not be a bug, but I didn't find any others.
+	This was one of the most instructive programs I debugged: [ ] YES    [X] NO
+
+
+sgd
+	The problems were: Program incomplete...
+	This was one of the most instructive programs I debugged: [ ] YES    [X] NO
+
+
+dbeick
+	The problems were: Line 13-14, should allocate sizeOf(int)*(w*h*d) and sizeOf(int*)*(w*h*d), not just (w*h*d)
+			Line 18, should use j < h not i < h
+			Line 30, should not free buffer yet since buffer2, which only contains the addresses of the data in buffer, is used after this point
+	This was one of the most instructive programs I debugged: [X] YES    [ ] NO
+
+
+colter
+	The problems were: Again needed to include stdlib.h
+			foo(), needs malloc for char* x to allow assignment
+			foo2(), x is set to unallocated space
+			foo3(), needs malloc for char* x to allow assignment
+			Line 45, Should not use object after delete
+			Line 47, need (char*) malloc(3)
+			Line 56, pointer used again after being set
+	This was one of the most instructive programs I debugged: [ ] YES    [X] NO
+
+

@@ -1,0 +1,32 @@
+marsagli
+	The problems were: two memory read errors. For the first, the array when past the allocated 10  integer bytes, so it read from an unknown place in memory. The second was another memory read error because there was only 10 bytes of memory allocated for an integer array but it assigned and read 40 bytes worth of information. 
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+abdul
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+kdawes
+	The problems were:This program creates a buffer, but it never allocates memory, so when it calles buffer[#] it is grabbing whatever is in that memory, but we don't necessarily know what that is. Then there is a memory read error, this program tries to read 15 ints from a size 9 int array. This code also frees the pointer and then tries to access it. This person said there were "3 or 4 errors", there are the 3. 
+
+
+	This was one of the most instructive programs I debugged: [x] YES    [ ] NO
+
+
+johnsto3
+	The problems were:He had a pointer to a struct called t, and then an instance of that struct in f which he then assigned to the memory address of t. Essentially these two variables have their own scope of each struct so when he writes f.b this does not correspond to t[0].b, which is what the program tries to do. 
+	This was one of the most instructive programs I debugged: [x] YES    [ ] NO
+
+
+chasek
+	The problems were:Technically there were 5 errors, though they were all the same. It creates 5 pointers to ints but never initializes those ints or their addresses, so everytime count_# is dereferenced we are dereferecning a null pointer. And in the print statements %d only works for ints, whereas he is passing in pointers for all of them but one. 
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+snelson3
+	The problems were:One of the problems was input[i-1] when i starts at 0--this happens twice. Another problem was input[i] for i>=2 since we're dealing with an array that puts us out of our index range--giving us a memory read error--he does this twice. That gives us 4 errors. Check check. 
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+

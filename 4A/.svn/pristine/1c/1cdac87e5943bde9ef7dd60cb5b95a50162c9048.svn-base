@@ -1,0 +1,41 @@
+trowland
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+snelson3
+	The problems were:
+		NULL pointer assignment: char *secondword = firstword;
+		char *arraysize[2] = {NULL, NULL};
+		the for loop is for i=0 to 6 but input only has arraysize 2 and they are trying to access too many indices, the error continues into the assignment of input[i] 		
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+bellerby
+	The problems were: 
+		printing out x3 when x = NULL in line 23
+		deleting x when it wasn't allocated in line 36
+	This was one of the most instructive programs I debugged: [x] YES    [ ] NO
+		Author thinks there is 1? there were actually two
+		appropriate for this project, but not as instructive as some
+
+abdul
+	The problems were: 
+		not freeing any memory after allocating it, buf1 and buf2
+		did the author count each memory leak as an error? 
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+johnsto3
+	The problems were:
+		line 28 t[0] = f; assignment to unallocated array
+
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+		no name for author or number of memory errors
+
+jkrakows
+	The problems were:
+		deleting power and x and then using it again - line 28/29
+	This was one of the most instructive programs I debugged: [x] YES    [ ] NO
+		didn't say how many errors, but most appropriate bad_prog.C i've seen
+

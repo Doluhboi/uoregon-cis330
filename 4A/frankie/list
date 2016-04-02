@@ -1,0 +1,30 @@
+zhuojun
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+marsagli
+	The problems were: 1. Reading past end of an array. 2. Not passing enough bytes to malloc for int[] of size 10.
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+chasek
+	The problems were: Doing pointer arithmetic on null pointers and incremeting null pointers. 
+	This was one of the most instructive programs I debugged: [*] YES    [ ] NO
+
+
+erikster
+	The problems were: Trying to free memory which has already been freed. 
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+snelson3
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+tristanj
+	The problems were: Assigning null to a pointer, then trying to delete that pointer. Also trying to assign an integer from a point which has been deleted.
+	This was one of the most instructive programs I debugged: [*] YES    [ ] NO
+
+

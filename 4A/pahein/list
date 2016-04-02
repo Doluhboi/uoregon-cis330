@@ -1,0 +1,48 @@
+chasek
+	The problems were:
+		(1.) Didn't dereference all the pointers in the print statements (lines 49-52)
+		(2.) Null pointer write (counts 3,5,7,9,11)
+		(3.) '++' on the wrong side of the variables when adding to counts
+		(4.) Count_7 missing a dereference star (line 32)
+
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+jkranz
+	The problems were:
+		(*)… did someone edit this before I got to it? It's up and running… and formatted like it wasn't supposed to originally. I dunno, just my gut, I suppose. 
+		(1.) Free Memory Read @ line 32
+		(2.) Array Bound Reads @ line 20, 22 when i=5 (arr[5+1] is out of bounds)
+		(3.) Uninitialized Memory Read @ line 34 (num2 has not been set)
+		(4.) Was #3 supposed to be two? I'm not entirely sure how everyone's counting, here
+	This was one of the most instructive programs I debugged: [o] YES    [ ] NO 
+
+
+chaz11
+	The problems were:
+		(*) This file didn't make at first? Maybe it's just my computer. Related to that, periods were used on lines 76 & 77 where they shouldn't have been. 
+		(*) RUDE. Fat-shaming is unacceptable. Not to mention poor grammar! @ lines 44, 48
+		(1.) Fixing that, of course, leads to Free Memory Reads on lines 79, 81, 82, & 83. Technically, it's also freeing unallocated memory because of the next point.
+		(2.) Uninitialized memory write: none of the char array pointers (str1-str4) are given memory allocations before they are written to -- @ lines 32, 36, 40, 48
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO (too obvious. also, rather insulting and sizeist.)
+
+jkrakows
+	The problems were:
+		(*) Didn't write the number of errors. At least this one isn't unapologetically discriminatory. 
+		(1.) Free memory read @ basically everything after lines 28 & 29
+		(2.) Free memory write @ 25, 26; power was only allocated w/ array of 3 (and related free memory reads)
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+abdul
+	The problems were:
+		You got me. I've got no clue. For some reason, the clarity of the comments is disorienting.
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO (only becuase I don't have any idea what's wrong. if someone explained I bet it'd be quite illuminating.)
+
+
+marsagli
+	The problems were:
+		(1.) Array bounds read -> line 25 loops through once too many
+		(2.) Is the malloc at 31 not big enough? should it be 10*sizeof(int)?
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+

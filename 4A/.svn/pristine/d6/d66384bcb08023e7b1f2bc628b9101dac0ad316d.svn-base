@@ -1,0 +1,43 @@
+jkranz
+	The problems were:
+    1. Array bounds read (20,22)
+    2. Free memory read (30)
+    3. Uninitialized memory memory read/write (34,40,46,47)
+    4. Forgot to include <stdlib.h> ???
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+chaz11
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+sadlercs
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+vsyms
+	The problems were:
+    1. NULL pointer read/write (63/64)
+    2. Freeing non-heap memory (67,68)
+    3. Feeding NULL to cout results in an undefined behavior!!
+	This was one of the most instructive programs I debugged: [x] YES    [ ] NO
+
+
+msipich
+	The problems were: 
+    1. The program does absolutely nothing!
+    2. No memory errors!
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+
+mmaurice
+	The problems were:
+    1. Array bounds write/read (14/29)
+    2. Free memory write/read (38)
+    3. Freeing non-heap memory (39)
+    4. Uninitilized memory read (31)
+	This was one of the most instructive programs I debugged: [ ] YES    [x] NO
+
+

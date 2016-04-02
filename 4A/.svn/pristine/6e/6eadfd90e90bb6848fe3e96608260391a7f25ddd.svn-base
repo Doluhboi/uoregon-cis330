@@ -1,0 +1,44 @@
+jwong
+	The problems were:
+            1. line 13, 20, 24: double free 'buffuer' in isEven() function
+            2. line 14: array access out of boundry
+            3. line 46: attemping to free stack
+
+	This was one of the most instructive programs I debugged: [ ] YES    [X] NO
+
+
+zhuojun
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
+snelson3
+	The problems were:
+            1. line 13,14: array access out of boundry when i=0
+            2. line 12: the index of 'input' should be between 0 and 2
+
+	This was one of the most instructive programs I debugged: [ ] YES    [X] NO
+
+
+kdawes
+	The problems were:
+            1. line 27: accessing data from unkonw area in memory
+            2. line 29: free unalocated memory
+            3. line 37: same as line 27, although it will not be executed because of i
+
+	This was one of the most instructive programs I debugged: [ ] YES    [X] NO
+
+
+tristanj
+	The problems were:
+            1. line 32: multiple deletion on the same heap memory
+            2. line 37: access deleted memory
+
+	This was one of the most instructive programs I debugged: [X] YES    [ ] NO
+
+
+msipich
+	The problems were:
+	This was one of the most instructive programs I debugged: [ ] YES    [ ] NO
+
+
